@@ -18,6 +18,7 @@ def single_letter_count(word, letter):
            count += 1
     return count
 
+    # return word.lower().count(letter.lower())
 
 
 print(single_letter_count("Hello World", 'h'))

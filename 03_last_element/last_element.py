@@ -15,6 +15,11 @@ def last_element(lst):
         except:
             print('None')
 
+        # if lst:
+        #     return lst[-1]
+        # we don't need to do anything else; functions
+        # return None by default
+
 
 print(last_element([1,2,3]))
 print(last_element([]))
