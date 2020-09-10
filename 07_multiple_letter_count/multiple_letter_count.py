@@ -18,6 +18,13 @@ def multiple_letter_count(phrase):
            dict[n] = 1
     return dict
 
+    # counter = {}
+    #
+    # for ltr in phrase:
+    #     counter[ltr] = counter.get(ltr, 0) + 1
+    #
+    # return counter
+
 
 print(multiple_letter_count('yay'))
 print(multiple_letter_count('Yay'))
