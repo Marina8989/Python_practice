@@ -21,3 +21,14 @@ def is_palindrome(phrase):
         >>> is_palindrome('Noon')
         True
     """
+    space = phrase.replace(' ', '')
+
+    if space == space[::-1]:
+        return True
+
+    return False
+
+
+print(is_palindrome("tacocat"))
+print(is_palindrome("robert"))
+print(is_palindrome('taco cat'))
